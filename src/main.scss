@@ -1,5 +1,10 @@
-$main-padding: 20px;
+body {
+  margin: 20px;
+  background: #fffdf5;
+  font-family: Avenir Next;
+}
 
-#main {
-    padding: $main-padding;
+.container {
+  margin: auto;
+  width: 400px;
 }

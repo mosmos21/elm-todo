@@ -1,5 +1,5 @@
 {
-  "name": "elm-dev-env",
+  "name": "elm-todo",
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
@@ -18,7 +18,6 @@
     "node-sass": "^4.9.1",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.20.3",
-    "url-loader": "^1.1.1",
     "webpack": "^4.17.1",
     "webpack-cli": "^3.1.0",
     "webpack-serve": "^2.0.2"

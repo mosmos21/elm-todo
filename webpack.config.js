@@ -20,10 +20,6 @@ module.exports = {
                     debug: true
                 }
             },
-            {
-                test: /\.svg$/,
-                loader: 'url-loader'
-            }
         ],
     },
     plugins: [
