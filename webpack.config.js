@@ -14,7 +14,7 @@ module.exports = {
                 loader: ['style-loader', 'css-loader', 'sass-loader'],
             },
             {
-                test:    /\.elm$/,
+                test: /\.elm$/,
                 loader: 'elm-webpack-loader',
                 options: {
                     debug: true
@@ -24,14 +24,14 @@ module.exports = {
     },
     plugins: [
         new HtmlWebpackPlugin({
-            title: 'Elm app',
+            title: 'Elm Todo',
             template: `${__dirname}/src/index.html`,
         })
     ],
     mode: process.env.WEBPACK_SERVE ? 'development' : 'production',
     serve: {
-      contentBase: `${__dirname}/dist`,
-      port: '8080',
-      open: true,
+        contentBase: `${__dirname}/dist`,
+        port: '8080',
+        open: true,
     }
 };
